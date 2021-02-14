@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery title="Island Marine Fuel Photos"
+	maxImageWidth="800"
+	maxImageHeight="800"
+	imagePath=""
+	thumbPath=""
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	thumbPosition="BOTTOM"
+	thumbRows="1"
+	thumbColumns="6"
+	showOpenButton="true"
+	showFullscreenButton="true"
+	showBackButton="true"
+	useFlash="false"
+	enableLooping="true"
+	showNavButtons="true"
+	captionDropShadow="true"
+	autoPlayOnLoad="true"
+	goNextOnAutoPlay="true"
+	mobileShowPageCount="false"
+	backButtonUrl="http://www.islandmarinefuel.com/"
+	galleryTitle="Island Marine Fuel Photos"
+	showExpandButton="true"
+	useFullscreenExpand="true"
+	galleryDescription="Island Marine Fuel Photo Gallery"
+	showAutoPlayButton="true"
+	showAudioButton="false"
+	showInfoButton="true"
+	showImageNumber="true"
+	enableAutoPlay="true"
+	showAutoPlayStatus="true"
+	shareFacebook="true"
+	shareTwitter="true"
+	shareGPlus="true"
+	sharePinterest="true"
+	shareTumblr="true"
+	useFotomoto="false"
+	backButtonPosition="TOP"
+	backButtonHAlign="LEFT"
+	showSmallBackButton="false"
+	backButtonUseIcon="true"
+	showThumbsButton="true"
+	enableKeyboardControls="true"
+	buttonBarPosition="TOP"
+	galleryTitlePosition="TOP"
+	addSEOContent="false"
+	useThumbDots="false"
+	showThumbPagingText="false"
+	showSmallThumbsButton="true"
+	galleryTitleHAlign="CENTER"
+	watermarkHAlign="LEFT"
+	watermarkVAlign="TOP"
+
+>
+  <image imageURL="images/SupermanAndKittyBeek.jpg"
+	thumbURL="thumbs/SupermanAndKittyBeek.jpg"
+	linkURL="images/SupermanAndKittyBeek.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/photos/images/SupermanAndKittyBeek.jpg">
+    <title><![CDATA[Superman And Kitty Beek]]></title>
+    <caption><![CDATA[Happy Halloween from Island Marine Fuel]]></caption>
+  </image>
+  <image imageURL="images/AmyAndSpring.jpg"
+	thumbURL="thumbs/AmyAndSpring.jpg"
+	linkURL="images/AmyAndSpring.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/photos/images/AmyAndSpring.jpg">
+    <title><![CDATA[Amy and Spring (and Amy's Island Marine Fuel Hat)]]></title>
+    <caption><![CDATA[Amy and her newly adopted horse Spring]]></caption>
+  </image>
+  <image imageURL="images/honored.jpg"
+	thumbURL="thumbs/honored.jpg"
+	linkURL="images/honored.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/honored.jpg">
+    <title><![CDATA[David Beek Honored by Sherrif's Dept]]></title>
+    <caption><![CDATA[Island Marine Fuel AED saves life on Labor Day, 2015]]></caption>
+  </image>
+  <image imageURL="images/commendation.jpg"
+	thumbURL="thumbs/commendation.jpg"
+	linkURL="images/commendation.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/commendation.jpg">
+    <title><![CDATA[Official Commendation]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/Island_Marine_Fuel.jpg"
+	thumbURL="thumbs/Island_Marine_Fuel.jpg"
+	linkURL="images/Island_Marine_Fuel.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/Island_Marine_Fuel.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[Island Marine Fuel]]></caption>
+  </image>
+  <image imageURL="images/SpringBoating.jpg"
+	thumbURL="thumbs/SpringBoating.jpg"
+	linkURL="images/SpringBoating.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/SpringBoating.jpg">
+    <title><![CDATA[Spring Boating]]></title>
+    <caption><![CDATA[Early Spring weather provides a dramatic backdrop for boating]]></caption>
+  </image>
+  <image imageURL="images/VolunteerAward.jpg"
+	thumbURL="thumbs/VolunteerAward.jpg"
+	linkURL="images/VolunteerAward.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/VolunteerAward.jpg">
+    <title><![CDATA[Volunteer Award]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/MarchSky.jpg"
+	thumbURL="thumbs/MarchSky.jpg"
+	linkURL="images/MarchSky.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/photos/images/MarchSky.jpg">
+    <title><![CDATA[March Sky]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/belissima.jpg"
+	thumbURL="thumbs/belissima.jpg"
+	linkURL="images/belissima.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/belissima.jpg">
+    <title><![CDATA[Bellissima]]></title>
+    <caption><![CDATA[Big momma!]]></caption>
+  </image>
+  <image imageURL="images/belOnMemorialDay.png"
+	thumbURL="thumbs/belOnMemorialDay.jpg"
+	linkURL="images/belOnMemorialDay.png"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/photos/images/belOnMemorialDay.png">
+    <title><![CDATA[Bellissima on Memorial Day]]></title>
+    <caption><![CDATA[Memorial Day 2016]]></caption>
+  </image>
+  <image imageURL="images/photo 2-1.JPG"
+	thumbURL="thumbs/photo 2-1.JPG"
+	linkURL="images/photo 2-1.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/photo 2-1.JPG">
+    <title><![CDATA[Only Fuel Dock in Newport Harbor that Can Accomodate HUGE Vessels]]></title>
+    <caption><![CDATA[No other dock in Newport Harbor can service this vessel]]></caption>
+  </image>
+  <image imageURL="images/certOfRecognition.jpg"
+	thumbURL="thumbs/certOfRecognition.jpg"
+	linkURL="images/certOfRecognition.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/certOfRecognition.jpg">
+    <title><![CDATA[Certificate of Recognition]]></title>
+    <caption><![CDATA[from the California Assembly]]></caption>
+  </image>
+  <image imageURL="images/lgvslbow.JPG"
+	thumbURL="thumbs/lgvslbow.JPG"
+	linkURL="images/lgvslbow.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/lgvslbow.JPG">
+    <title><![CDATA[Huge Vessels Welcome]]></title>
+    <caption><![CDATA[Only Fuel Dock in NewportHarbor with this capacity]]></caption>
+  </image>
+  <image imageURL="images/megayacht.jpg"
+	thumbURL="thumbs/megayacht.jpg"
+	linkURL="images/megayacht.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/megayacht.jpg">
+    <title><![CDATA[Only Fuel Dock in Newport Harbor that can Accommodate Mega Yachts!]]></title>
+    <caption><![CDATA[With Bulk Fuel Pricing]]></caption>
+  </image>
+  <image imageURL="images/SenateRecog.JPG"
+	thumbURL="thumbs/SenateRecog.JPG"
+	linkURL="images/SenateRecog.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/SenateRecog.JPG">
+    <title><![CDATA[Certificate of Recognition]]></title>
+    <caption><![CDATA[from the California Senate]]></caption>
+  </image>
+  <image imageURL="images/lgvslstrn.JPG"
+	thumbURL="thumbs/lgvslstrn.JPG"
+	linkURL="images/lgvslstrn.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/lgvslstrn.JPG">
+    <title><![CDATA[One Hundred and Twenty Feet of Dock]]></title>
+    <caption><![CDATA[We take all Vessles - large and small]]></caption>
+  </image>
+  <image imageURL="images/imf4_0.jpg"
+	thumbURL="thumbs/imf4_0.jpg"
+	linkURL="images/imf4_0.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/imf4_0.jpg">
+    <title><![CDATA[Longest Fuel Dock in Newport Harbor]]></title>
+    <caption><![CDATA[120 Feet Long]]></caption>
+  </image>
+  <image imageURL="images/Award-Winning-Dock.jpg"
+	thumbURL="thumbs/Award-Winning-Dock.jpg"
+	linkURL="images/Award-Winning-Dock.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/Award-Winning-Dock.jpg">
+    <title><![CDATA[ValvTect Marina of the Year Award Recipient]]></title>
+    <caption><![CDATA[Award winning service and products]]></caption>
+  </image>
+  <image imageURL="images/commodorescup.jpg"
+	thumbURL="thumbs/commodorescup.jpg"
+	linkURL="images/commodorescup.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/commodorescup.jpg">
+    <title><![CDATA[Commodores Club Award]]></title>
+    <caption><![CDATA[Commodore of the Year, David Beek]]></caption>
+  </image>
+  <image imageURL="images/July4_at_IMF.jpg"
+	thumbURL="thumbs/July4_at_IMF.jpg"
+	linkURL="images/July4_at_IMF.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/July4_at_IMF.jpg">
+    <title><![CDATA[July 4th and Labor Day at Island Marine Fuel]]></title>
+    <caption><![CDATA[Free hot dogs every Fourth of July & Labor Day! We love America!!]]></caption>
+  </image>
+  <image imageURL="images/photo 3-1.JPG"
+	thumbURL="thumbs/photo 3-1.JPG"
+	linkURL="images/photo 3-1.JPG"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/photo 3-1.JPG">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[We love all boats, BIG and small]]></caption>
+  </image>
+  <image imageURL="images/west.jpg"
+	thumbURL="thumbs/west.jpg"
+	linkURL="images/west.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/west.jpg">
+    <title><![CDATA[Bayfront View]]></title>
+    <caption><![CDATA[South Bay Front sidewalk view]]></caption>
+  </image>
+  <image imageURL="images/east.jpg"
+	thumbURL="thumbs/east.jpg"
+	linkURL="images/east.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/east.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[View from the South]]></caption>
+  </image>
+  <image imageURL="images/fromferry.jpg"
+	thumbURL="thumbs/fromferry.jpg"
+	linkURL="images/fromferry.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/fromferry.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[View from the Balboa Island Ferry]]></caption>
+  </image>
+  <image imageURL="images/imf5.jpg"
+	thumbURL="thumbs/imf5.jpg"
+	linkURL="images/imf5.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/imf5.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[North side the fuel dock]]></caption>
+  </image>
+  <image imageURL="images/imf6_0.jpg"
+	thumbURL="thumbs/imf6_0.jpg"
+	linkURL="images/imf6_0.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/imf6_0.jpg">
+    <title><![CDATA[Oil changes for diesel and gasoline engines]]></title>
+    <caption><![CDATA[Front view with banner]]></caption>
+  </image>
+  <image imageURL="images/imf_riles.jpg"
+	thumbURL="thumbs/imf_riles.jpg"
+	linkURL="images/imf_riles.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/imf_riles.jpg">
+    <title><![CDATA[Friendly Service]]></title>
+    <caption><![CDATA[Service with a smile!]]></caption>
+  </image>
+  <image imageURL="images/dave_riles_hi.jpg"
+	thumbURL="thumbs/dave_riles_hi.jpg"
+	linkURL="images/dave_riles_hi.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/dave_riles_hi.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[David and Riley at the edge of the 'Grand Canyon of the Pacific' - Kauai, HI]]></caption>
+  </image>
+  <image imageURL="images/michaelfowlkes.jpg"
+	thumbURL="thumbs/michaelfowlkes.jpg"
+	linkURL="images/michaelfowlkes.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/michaelfowlkes.jpg">
+    <title><![CDATA[]]></title>
+    <caption><![CDATA[Michael Fowlkes, executive producer of Fox Sports Inside Sportfishing, filling up with ValvTect at Island Marine Fuel, Balboa Island, California  Photo by David Beek]]></caption>
+  </image>
+  <image imageURL="images/paia_maui.jpg"
+	thumbURL="thumbs/paia_maui.jpg"
+	linkURL="images/paia_maui.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/paia_maui.jpg">
+    <title><![CDATA[IMF T-Shirt in Paradise]]></title>
+    <caption><![CDATA[Paia, Maui]]></caption>
+  </image>
+  <image imageURL="images/Andy_feeding_the_wee_un.jpg"
+	thumbURL="thumbs/Andy_feeding_the_wee_un.jpg"
+	linkURL="images/Andy_feeding_the_wee_un.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/Andy_feeding_the_wee_un.jpg">
+    <title><![CDATA[Belfast, Ireland]]></title>
+    <caption><![CDATA[The next Island Marine Fuel customer...]]></caption>
+  </image>
+  <image imageURL="images/cal_06_09.jpg"
+	thumbURL="thumbs/cal_06_09.jpg"
+	linkURL="images/cal_06_09.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/cal_06_09.jpg">
+    <title><![CDATA[Beautiful Newport Harbor]]></title>
+    <caption><![CDATA[Ferry from 100 feet]]></caption>
+  </image>
+  <image imageURL="images/pict0054.jpg"
+	thumbURL="thumbs/pict0054.jpg"
+	linkURL="images/pict0054.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/pict0054.jpg">
+    <title><![CDATA[Father and Son]]></title>
+    <caption><![CDATA[Seymour and David Beek]]></caption>
+  </image>
+  <image imageURL="images/award-winners.jpg"
+	thumbURL="thumbs/award-winners.jpg"
+	linkURL="images/award-winners.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/award-winners.jpg">
+    <title><![CDATA[Getting the Prize]]></title>
+    <caption><![CDATA[Jerry Nessenson, President of ValvTect Marine Fuels, Presents the 'Marina of the Year' Award to Island Marine Fuel]]></caption>
+  </image>
+  <image imageURL="images/bayshot.jpg"
+	thumbURL="thumbs/bayshot.jpg"
+	linkURL="images/bayshot.jpg"
+	linkTarget="_blank"
+	sourcePath="/Users/thomasbeek/Sites/IslandMarineFuel/public_html/photos/images/bayshot.jpg">
+    <title><![CDATA[bayshot]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</simpleviewergallery>
