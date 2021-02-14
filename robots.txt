@@ -1,0 +1,8 @@
+User-agent: * # match all bots
+Crawl-delay: 10
+Disallow: /blog/
+Disallow: /tombeek/
+Disallow: /lorem/
+Disallow: /test0.htm
+Disallow: /test1.htm
+Sitemap: http://www.islandmarinefuel.com/sitemap.xml

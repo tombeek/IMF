@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE ShopSitePages PUBLIC "-//shopsite.com//ShopSitePage DTD//EN" "http://www.shopsite.com/XML/2.4/shopsitepages.dtd">
+<ShopSitePages version="12.0">
+<Response>
+<ResponseCode>1</ResponseCode>
+<ResponseDescription>success</ResponseDescription>
+</Response>
+<Pages>
+<Page>
+<Name>Specials</Name>
+<PageFileName>specials.html</PageFileName>
+<PageTitle/>
+<DisplayName>checked</DisplayName>
+<Graphic>none</Graphic>
+<DisplayGraphic>checked</DisplayGraphic>
+<Text1/>
+<Text2/>
+<Text3/>
+<LinkName/>
+<LinkGraphic>none</LinkGraphic>
+<LinkGraphicSize>0</LinkGraphicSize>
+<LinkText/>
+<TextWrap>On</TextWrap>
+<PageLinks/>
+<ProductLinks>
+<Product>
+<Name>Aviator Sunglasses</Name>
+<SKU>av89</SKU>
+</Product>
+<Product>
+<Name>Men&apos;s Accent Screw Sunglasses</Name>
+<SKU>as12</SKU>
+</Product>
+<Product>
+<Name>Speckled Aviator Sunglasses</Name>
+</Product>
+<Product>
+<Name>Zebra Print Sunglasses</Name>
+</Product>
+<Product>
+<Name>Sun Standard Sunglasses</Name>
+</Product>
+</ProductLinks>
+<LinksToPage/>
+<ItemAlignment>Left aligned</ItemAlignment>
+<Columns>Four columns</Columns>
+<PageLinkColumns>Three columns</PageLinkColumns>
+<DisplayColumnBorders>uncheck</DisplayColumnBorders>
+<PageWidth>1000</PageWidth>
+<PageWidthType>px</PageWidthType>
+<DisplayUniversalHeader>checked</DisplayUniversalHeader>
+<DisplayUniversalFooter>checked</DisplayUniversalFooter>
+<PageGlobalCrossSell>uncheck</PageGlobalCrossSell>
+<TextColor>#000000</TextColor>
+<BackgroundColor>#FFFFFF</BackgroundColor>
+<LinkColor>#650047</LinkColor>
+<VisitedLinkColor>#A19AA1</VisitedLinkColor>
+<ActiveLinkColor>#333333</ActiveLinkColor>
+<BackgroundImage>[shopsite-images]/backgrounds/brushed_metal_001.gif</BackgroundImage>
+<MetaKeywords/>
+<MetaDescription/>
+<SearchProducts>checked</SearchProducts>
+<Index>checked</Index>
+<PageSitemap>checked</PageSitemap>
+<PageSitemapPriority>Google Default</PageSitemapPriority>
+<Order>None</Order>
+<ProductsSortField>Name</ProductsSortField>
+<PagesSortField>Name</PagesSortField>
+<ProductsFirst>checked</ProductsFirst>
+<NumberProducts>0</NumberProducts>
+<PageField1/>
+<PageField2/>
+<PageField3/>
+<PageField4/>
+<PageField5/>
+<PageField6/>
+<PageField7/>
+<PageField8/>
+<PageField9/>
+<PageField10/>
+<PageField11/>
+<PageField12/>
+<PageField13/>
+<PageField14/>
+<PageField15/>
+<PageField16/>
+<PageField17/>
+<PageField18/>
+<PageField19/>
+<PageField20/>
+<PageField21/>
+<PageField22/>
+<PageField23/>
+<PageField24/>
+<PageField25/>
+</Page>
+<Page>
+<Name>Men&apos;s Sunglasses</Name>
+<PageFileName>mens-sunglasses.html</PageFileName>
+<PageTitle/>
+<DisplayName>checked</DisplayName>
+<Graphic>none</Graphic>
+<DisplayGraphic>checked</DisplayGraphic>
+<Text1/>
+<Text2/>
+<Text3/>
+<LinkName/>
+<LinkGraphic>none</LinkGraphic>
+<LinkGraphicSize>0</LinkGraphicSize>
+<LinkText/>
+<TextWrap>On</TextWrap>
+<PageLinks/>
+<ProductLinks>
+<Product>
+<Name>Sun Standard Sunglasses</Name>
+</Product>
+<Product>
+<Name>Aviator Sunglasses</Name>
+<SKU>av89</SKU>
+</Product>
+<Product>
+<Name>Men&apos;s Red Sunglasses</Name>
+<SKU>rd13</SKU>
+</Product>
+<Product>
+<Name>Men&apos;s Accent Screw Sunglasses</Name>
+<SKU>as12</SKU>
+</Product>
+</ProductLinks>
+<LinksToPage/>
+<ItemAlignment>Left aligned</ItemAlignment>
+<Columns>Three columns</Columns>
+<PageLinkColumns>Three columns</PageLinkColumns>
+<DisplayColumnBorders>uncheck</DisplayColumnBorders>
+<PageWidth>1000</PageWidth>
+<PageWidthType>px</PageWidthType>
+<DisplayUniversalHeader>checked</DisplayUniversalHeader>
+<DisplayUniversalFooter>checked</DisplayUniversalFooter>
+<PageGlobalCrossSell>uncheck</PageGlobalCrossSell>
+<TextColor>#000000</TextColor>
+<BackgroundColor>#FFFFFF</BackgroundColor>
+<LinkColor>#650047</LinkColor>
+<VisitedLinkColor>#A19AA1</VisitedLinkColor>
+<ActiveLinkColor>#333333</ActiveLinkColor>
+<BackgroundImage>[shopsite-images]/backgrounds/brushed_metal_001.gif</BackgroundImage>
+<MetaKeywords/>
+<MetaDescription/>
+<SearchProducts>uncheck</SearchProducts>
+<Index>checked</Index>
+<PageSitemap>checked</PageSitemap>
+<PageSitemapPriority>Google Default</PageSitemapPriority>
+<Order>None</Order>
+<ProductsSortField>Name</ProductsSortField>
+<PagesSortField>Name</PagesSortField>
+<ProductsFirst>checked</ProductsFirst>
+<NumberProducts>0</NumberProducts>
+<PageField1/>
+<PageField2/>
+<PageField3/>
+<PageField4/>
+<PageField5/>
+<PageField6/>
+<PageField7/>
+<PageField8/>
+<PageField9/>
+<PageField10/>
+<PageField11/>
+<PageField12/>
+<PageField13/>
+<PageField14/>
+<PageField15/>
+<PageField16/>
+<PageField17/>
+<PageField18/>
+<PageField19/>
+<PageField20/>
+<PageField21/>
+<PageField22/>
+<PageField23/>
+<PageField24/>
+<PageField25/>
+</Page>
+<Page>
+<Name>Women&apos;s Sunglasses</Name>
+<PageFileName>womens-sunglasses.html</PageFileName>
+<PageTitle/>
+<DisplayName>checked</DisplayName>
+<Graphic>none</Graphic>
+<DisplayGraphic>checked</DisplayGraphic>
+<Text1/>
+<Text2/>
+<Text3/>
+<LinkName/>
+<LinkGraphic>none</LinkGraphic>
+<LinkGraphicSize>0</LinkGraphicSize>
+<LinkText/>
+<TextWrap>On</TextWrap>
+<PageLinks/>
+<ProductLinks>
+<Product>
+<Name>Speckled Aviator Sunglasses</Name>
+</Product>
+<Product>
+<Name>Thick Frame Sunglasses</Name>
+</Product>
+<Product>
+<Name>Zebra Print Sunglasses</Name>
+</Product>
+</ProductLinks>
+<LinksToPage/>
+<ItemAlignment>Left aligned</ItemAlignment>
+<Columns>Three columns</Columns>
+<PageLinkColumns>Three columns</PageLinkColumns>
+<DisplayColumnBorders>uncheck</DisplayColumnBorders>
+<PageWidth>1000</PageWidth>
+<PageWidthType>px</PageWidthType>
+<DisplayUniversalHeader>checked</DisplayUniversalHeader>
+<DisplayUniversalFooter>checked</DisplayUniversalFooter>
+<PageGlobalCrossSell>uncheck</PageGlobalCrossSell>
+<TextColor>#000000</TextColor>
+<BackgroundColor>#FFFFFF</BackgroundColor>
+<LinkColor>#650047</LinkColor>
+<VisitedLinkColor>#A19AA1</VisitedLinkColor>
+<ActiveLinkColor>#333333</ActiveLinkColor>
+<BackgroundImage>[shopsite-images]/backgrounds/brushed_metal_001.gif</BackgroundImage>
+<MetaKeywords/>
+<MetaDescription/>
+<SearchProducts>uncheck</SearchProducts>
+<Index>checked</Index>
+<PageSitemap>checked</PageSitemap>
+<PageSitemapPriority>Google Default</PageSitemapPriority>
+<Order>None</Order>
+<ProductsSortField>Name</ProductsSortField>
+<PagesSortField>Name</PagesSortField>
+<ProductsFirst>checked</ProductsFirst>
+<NumberProducts>0</NumberProducts>
+<PageField1/>
+<PageField2/>
+<PageField3/>
+<PageField4/>
+<PageField5/>
+<PageField6/>
+<PageField7/>
+<PageField8/>
+<PageField9/>
+<PageField10/>
+<PageField11/>
+<PageField12/>
+<PageField13/>
+<PageField14/>
+<PageField15/>
+<PageField16/>
+<PageField17/>
+<PageField18/>
+<PageField19/>
+<PageField20/>
+<PageField21/>
+<PageField22/>
+<PageField23/>
+<PageField24/>
+<PageField25/>
+</Page>
+</Pages>
+</ShopSitePages>

@@ -1,0 +1,394 @@
+ /* Basic text and pseudo classes */
+a { text-decoration: none; }
+a:link { color:#0A0A5D; }
+a:visited {color:#4E0C66; }
+#address > a:hover { color: #161dd9; }
+em { text-decoration: underline; }
+.dark {  font-weight: bold;  font-size: 2em;  }
+.def { text-decoration: underline; text-shadow: 0px 0px 13px gold; }
+
+/* Balance of styling in order by page position */
+#header {
+	background-repeat: no-repeat;
+	background-image: url(../art/flag_logo.PNG);
+	height:280px;
+	margin:10px;
+	top:0px;
+	left:0px;
+	padding-left: 20px;
+}
+#welcome {
+	left: 120px;
+	position: relative;
+	width: 750px;
+	height: 78px;
+	background-image: url(../art/banner1.gif);
+	background-repeat: no-repeat;
+	content: "Welcome to Island Marine Fuel";
+	font-family: fantasy;
+	font-size: 55px;
+	font-weight: normal;
+}
+#msite {
+	padding: 2px;
+	text-shadow: 1px 1px #c2cfea;
+	border-style: dotted;
+	border-width: 1px;
+	font-size: 12px;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	position: absolute;
+	top: 170px;
+	left: 25px;
+}
+body {
+background-repeat: repeat-y;
+background-image:url('../art/bgpic.png');
+margin: 1em;
+}
+#codes {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+#main {
+margin: 0px 0px 10px 250px;
+max-width:929px;
+}
+#sidebar_l {
+margin:10px;
+padding:10px;
+top: 210px;
+left: 1px;
+width:275px;
+position: absolute;
+}
+#dropdown {
+margin-top: 5px;
+top: 10px;
+left: 0px;
+}
+#links {
+	margin-left: -15px;
+	margin-right: 2px;
+	border-style: inset;
+	border-width: 1px;
+	max-width: 212px;
+	background-image: url(../art/white_71.png);
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	font-size: 12px;
+	top: 10px;
+	left: 0px;
+}
+.link {
+	padding-left: 10px;
+}
+.link:hover {
+    background-color: #ccccff;
+    position:relative; 
+    z-index:100;
+}
+.link li:hover > a {
+    background-color:#655;
+    color: #01f4ff;
+}
+.block {
+	background-color:white;
+	color:#030455;
+	font-family:sans-serif;
+	/* font-size:14px; */
+	font-weight:bold;
+	text-align:left;
+	text-decoration:none;
+}
+.blockCtr {
+	color:#030455;
+	font-family:sans-serif;
+	font-weight:bold;
+	text-align:center;
+	margin: 10px 0px 10px 0px;
+}
+.block_lg {
+	color:#030455;
+	font-family:sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	margin-top: 14px;
+}
+
+.sans { font-family: sans-serif; font-size: smaller; }
+
+#fb { font-family: sans-serif; color: blue; font-weight: bold; }
+
+#hours_div {
+	margin-left:76px;
+}
+#hours_table {
+	font-size: smaller;
+	border-width: thin;
+	border-style: solid;
+	width: 1000px;
+}
+#hours_table caption {
+	font-family:sans-serif;
+	font-size:2em;
+	font-variant:small-caps;
+	font-weight:bold;
+	text-align: center;
+	text-decoration:underline;
+}
+.hour_data {
+	background-color: #d5e1f1;
+	border-style: solid;
+	border-width: thin;
+	font-family:sans-serif;
+	padding-top: 5px;
+	text-align:center;
+	vertical-align: top;
+}
+.current {
+	border-width: medium;
+	font-size: larger;
+	font-weight: bolder;
+}
+.dates {
+	font-size: small;
+}
+.medium {
+	color:#040245;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-size:0.9em;
+	line-height:18pt;
+	padding:2px 4px 2px 8px;
+	text-align:left;
+}
+.small {
+	color:#040245;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-size:0.9em;
+	text-align:left;
+}
+.season {
+	font-weight:bold;
+}
+#bulletPoints {
+	padding-right: 5px;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	font-style: italic;
+	font-size: large;
+	margin-bottom: 5px;
+	margin-left: -25px;
+	border-width: thin;
+	border-color: #5277ff;
+	border-style: inset;
+	border-radius: 10px;
+	margin-top: 17px;
+	color: #042f5d;
+	background: url(../art/white_71.png);
+	line-height:1em;
+	max-width: 609px;
+}
+#bulletPoints li {
+	margin-bottom:0.5em;
+}
+#search {
+	margin-top: -60px;
+}
+#award {
+	text-align: left;
+	left: 862px;
+	top: 263px;
+	position: absolute;
+	border: navy groove thin;
+	border-radius: 3px;
+	width: 400px;
+	background: white;
+}
+#awardpic {
+	width: 400px;
+}
+.awardText {
+	text-align: center;
+	color: navy;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	height: 27px;
+	margin-top: 0;
+}
+#blurb {
+	padding: 0em 1.2em 0em 1em;
+	text-align: left;
+	left: 854px;
+	top: 626px;
+	position: absolute;
+	border: navy groove thin;
+	border-radius: 3px;
+	width: 337px;
+	background: white;
+}
+.blrb {
+	text-align: left;
+	color: #00003f;
+	font-size: larger;
+	font-family: sans-serif, helvetica;
+	font-weight:bold;
+}
+.blrb_head {
+	text-decoration: underline;
+	font-size: larger;
+	text-align: center;
+}
+#ads{
+	position: absolute;
+	left: 885px;
+	top: 720px;
+	border: navy groove thin;
+}
+#vtlogo {
+	text-align: center;
+	font-family:serif;
+	font-size: 0.99em;
+	margin-bottom:20px;
+	margin-left:16px;
+	margin-top:20px;
+}
+#vtlogo_table {
+	text-align: center;
+	background-color: white;
+	border: groove silver;
+	font-family:serif;
+	font-size: 0.99em;
+}
+#tides {
+	border: 2px ridge silver;
+	height: 200px;
+	margin: 20px 40px;
+	width: 500px;
+}
+#weather {
+	border:2px ridge silver;
+	height:290px;
+	margin: 20px 40px;
+	width:500px;
+}
+#wx_module_9208 {
+	border-style:ridge;
+	border-width:2px;
+	margin-left:20px;
+}
+#biocide {
+	margin-bottom:20px;
+	margin-left:15px;
+}
+.bio {
+	border: gray ridge;
+	height: 180px;
+	width: 135px;
+}
+#address {
+	background-color:#FFF5F5;
+	border:2px ridge;
+	color:#0E0C3D;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-size:1.5em;
+	margin-left:150px;
+	padding:0px 10px 10px 0px;
+	text-align:inherit;
+	width: 550px;
+}
+#maphead {
+	margin-bottom:0px;
+	margin-left:42px;
+	width:603px;
+	background-color: white;
+}
+#imf_canvas {  /*  This is for the Google map div */
+	border:medium ridge #AFA6A8;
+	font-family:Helvetica,Verdana,Arial,sans-serif;
+	height:400px;
+	margin-left:40px;
+	margin-top:0;
+	padding-top:0;
+	width:600px;
+}
+#moon_weather_table {
+	margin-bottom:20px;
+	margin-left:40px;
+	margin-top:20px;
+}
+#moon_inner {
+	border:1px solid #B5B5B5;
+	padding:6px 16px;
+}
+.moon_style {
+	width:223px;
+}
+#recycle_logo {
+	background-color:white;
+	height: 180px;
+	width:135px;
+	border: thin silver ridge;
+}
+#recycle_table {
+	background-color:white;
+	border-style:groove;
+	margin-left: 15px;
+	width: 180px;
+}
+.recl_sm {
+	color:#030455;
+	font-family:sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+	text-decoration:none;
+}
+#footer {
+	font-size: 10px;
+	margin:30px 0px 10px 10px;
+	text-align:center;
+}
+#legal {
+	margin:2em 0em 0.5em 0em;
+	text-align:center;
+	width:100%;
+}
+#copyright {
+	background-color: white;
+	font-family:serif;
+	font-size:large;
+	font-style:italic;
+	left: 0px;
+	text-align: left;
+}
+#badges {
+	clear: both;
+	margin: 10px;
+}
+#qr_code {
+	margin: 50px 0 0 41px;
+	font-size: 12px;
+	background-color: white;
+	width: 200px;
+}
+.qr_code {
+	width: 200px;
+}
+#google_translate_element {
+	left: 940px;
+	top: 0px;
+	position: absolute;
+}
+#gsearch {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+/*
++--------------------------------------+
+|  __,  __   __        (c) 2017        |
+| /  ` /__` /__`       by: Thomas Beek |
+| \__, .__/ .__/                       |
++--------------------------------------+
+*/ 
