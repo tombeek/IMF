@@ -1,4 +1,4 @@
- /* Basic text and pseudo classes */
+/* Basic text and pseudo classes */
  a { text-decoration: none; }
  a:link { color:#0A0A5D; }
  a:visited {color:#0A0A5D; }
@@ -7,84 +7,11 @@
  .dark {  font-weight: bold;  font-size: 2em;  }
  .def { text-decoration: underline; text-shadow: 0px 0px 13px gold; }
  
- /* Mobile and responsive design */
- @media (max-width: 768px) {
-    #header, #main, #sidebar_l, #footer {
-        width: 100%;
-        margin: 0;
-        padding: 10px;
-    }
-    #header {
-        height: auto;
-    }
-    #welcome, #hours_data, #bulletPoints, #award, #blurb {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    #weatherframe iframe {
-        width: 100%;
-        height: auto;
-    }
-}
- /*
-@media only screen and (max-width: 768px) {
-	 #header {
-		 height: auto;
-		 padding-left: 10px;
-	 }
-	 #welcome {
-		 left: 0;
-		 width: 100%;
-		 font-size: 40px;
-		 text-align: center;
-	 }
-	 #msite {
-		 position: static;
-		 width: 100%;
-		 padding: 5px;
-	 }
-	 #sidebar_l {
-		 position: static;
-		 width: 100%;
-		 margin: 10px 0;
-	 }
-	 #main {
-		 margin: 0;
-		 width: 100%;
-	 }
-	 #links {
-		 width: 100%;
-		 margin: 0;
-	 }
-	 #award, #blurb, #ads {
-		 position: static;
-		 width: 100%;
-		 margin: 10px 0;
-	 }
-	 #hours_data {
-		 padding-left: 0;
-	 }
-	 #hours_table {
-		 width: 100%;
-	 }
-	 #tides, #weather {
-		 width: 100%;
-		 margin: 10px 0;
-	 }
-	 #imf_canvas {
-		 width: 100%;
-		 margin-left: 0;
-	 }
-	 #footer, #legal {
-		 width: 100%;
-		 margin: 10px 0;
-	 }
-	 #qr_code {
-		 width: 100%;
-		 margin: 10px 0;
-	 }
+ /* General responsive settings for images and iframes */
+ img, iframe {
+    max-width: 100%;
+    height: auto;
  }
- */
  
  /* Balance of styling in order by page position */
  #header {
@@ -123,9 +50,10 @@
 	 left: 25px;
  }
  body {
- background-repeat: repeat-y;
- background-image:url('../art/bgpic.png');
- margin: 1em;
+    background-repeat: repeat-y;
+    background-image:url('../art/bgpic.png');
+    margin: 1em;
+    font-size: 16px; /* Base font size */
  }
  #codes {
 	 border-width: 1px;
@@ -133,16 +61,16 @@
 	 border-color: black;
  }
  #main {
- margin: 0px 0px 10px 250px;
- max-width:929px;
+    margin: 0px 0px 10px 250px;
+    max-width:929px;
  }
  #sidebar_l {
- margin:10px;
- padding:10px;
- top: 210px;
- left: 1px;
- width:275px;
- position: absolute;
+    margin:10px;
+    padding:10px;
+    top: 210px;
+    left: 1px;
+    width:275px;
+    position: absolute;
  }
  #links {
 	 margin-left: -15px;
@@ -237,7 +165,7 @@
 	 font-size: smaller;
 	 border-width: thin;
 	 border-style: solid;
-	 width: 1000px;
+	 width: 1000px; /* Will be overridden for smaller screens */
  }
  #hours_table caption {
 	 font-family:sans-serif;
@@ -325,7 +253,7 @@
 	 background: white;
  }
  #awardpic {
-	 width: 400px;
+	 width: 400px; /* Will be overridden by img max-width */
  }
  .awardText {
 	 text-align: center;
@@ -359,7 +287,7 @@
 	 font-size: larger;
 	 text-align: center;
  }
- #ads{
+ #ads{ /* This might need adjustment if it's an ad container */
 	 position: absolute;
 	 left: 885px;
 	 top: 720px;
@@ -369,10 +297,10 @@
 	 margin-bottom:20px;
 	 margin-left:16px;
 	 margin-top:20px;
-	 display: flow-root;
+	 display: flow-root; /* Changed from flow-root to block for easier stacking */
  }
  #vtlogo img {
-	 width:100px;
+	 width:100px; /* Will be overridden by img max-width if needed */
  }
  #vtlogo_table {
 	 background-color: white;
@@ -387,7 +315,7 @@
  }
  #weather {
 	 border:2px ridge silver;
-	 height:290px;
+	 height:290px; /* May need to be auto for responsive iframes */
 	 margin: 20px 40px;
 	 width:500px;
  }
@@ -400,7 +328,7 @@
 	 margin-bottom:20px;
 	 margin-left:15px;
  }
- .bio {
+ .bio { /* Assuming this is for an image or container */
 	 border: gray ridge;
 	 height: 180px;
 	 width: 144px;
@@ -487,27 +415,222 @@
 	 background-color: white;
 	 width: 200px;
  }
- .qr_code {
+ .qr_code { /* Class for QR code image if any */
 	 width: 200px;
  }
  #google_translate_element {
 	 display: flex;
 	 flex-direction: row-reverse;
  }
- /* #google_translate_element {
-	 left: 940px;
-	 top: 0px;
-	 position: absolute;
- } */
  #gsearch {
 	 margin-top: 10px;
 	 margin-left: 20px;
  }
  
+ /* --- Media Queries --- */
+
+ /* Large Desktops (max-width: 1200px) - Minor adjustments if needed */
+ @media (max-width: 1200px) {
+    #award, #blurb, #ads {
+        position: static; /* Stack them in the main flow */
+        width: 95%;
+        margin: 15px auto;
+        left: auto;
+        top: auto;
+    }
+    #main {
+        margin-left: 285px; /* Adjust if sidebar width changes */
+    }
+ }
+
+ /* Smaller Desktops / Large Tablets (max-width: 1024px) */
+ @media (max-width: 1024px) {
+    body {
+        font-size: 15px;
+    }
+    #header {
+        padding-left: 10px;
+        height: auto; /* Allow height to adjust */
+        background-size: contain; /* Ensure logo fits if it's a background image */
+    }
+    #welcome {
+        position: static; /* Remove absolute positioning */
+        width: 100%;
+        font-size: 45px;
+        text-align: center;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    #msite {
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #sidebar_l {
+        position: static;
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        top: auto; left: auto; /* Reset absolute positioning */
+    }
+    #main {
+        margin: 0;
+        width: 100%;
+        padding: 10px;
+    }
+    #links { /* Sidebar navigation */
+        max-width: 100%;
+        margin: 0 0 15px 0;
+    }
+    #vtlogo, #biocide, #recycle_table {
+        margin-left: 0; /* Center or align left as needed */
+        margin-right: 0;
+        text-align: center; /* Center contents */
+    }
+    #vtlogo img, .bio, #recycle_logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #hours_data {
+        padding-left: 0; /* Remove padding */
+        justify-content: space-around;
+    }
+    #hours_table, #tides, #weather, #imf_canvas, #address, #maphead {
+        width: 100% !important; /* Force full width */
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    #award, #blurb, #ads { /* Already static from 1200px, ensure full width */
+        width: 100%;
+    }
+    #bulletPoints {
+        margin-left: 0;
+        max-width: 100%;
+    }
+ }
+
+ /* Tablets Portrait & Phones Landscape (max-width: 768px) */
+ /* This replaces and integrates the previous (max-width: 768px) query */
+ @media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        margin: 0.5em;
+    }
+    #header, #main, #sidebar_l, #footer { /* Ensure full width and reset margins/padding */
+        width: 100% !important; /* Important to override inline styles if any */
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    }
+    #header {
+        height: auto;
+        padding: 10px; /* Uniform padding */
+        background-image: none; /* Optionally hide background for very small screens or provide smaller one */
+    }
+    #welcome {
+        font-size: 35px; /* Further reduce font size */
+    }
+    #msite {
+        font-size: 11px;
+    }
+    #bulletPoints, #award, #blurb {
+        width: 100%; /* Ensure full width */
+        margin-bottom: 15px;
+        position: static; /* Ensure they are not absolutely positioned */
+        left: auto; top: auto;
+    }
+    #awardpic { /* Ensure award picture scales */
+        max-width: 100%;
+    }
+    #hours_data {
+        flex-direction: column; /* Stack flex items */
+        align-items: center;
+    }
+    .flexhours {
+        width: 90%; /* Make hour boxes wider */
+        margin-bottom: 5px;
+    }
+    #hours_table {
+        font-size: 0.9em; /* Adjust table font size */
+    }
+    #tides, #weather, #wx_module_9208, #imf_canvas, #address, #maphead {
+        margin: 10px 0; /* Adjust margins for stacked items */
+    }
+    #google_translate_element {
+        justify-content: center; /* Center translate element */
+    }
+    #gsearch {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 80%;
+    }
+    #footer {
+        padding: 15px;
+    }
+ }
+
+ /* Phones Landscape (max-width: 576px) */
+ @media (max-width: 576px) {
+    #welcome {
+        font-size: 30px;
+    }
+    .block_lg { /* Adjust large block text */
+        font-size: 18px;
+    }
+    #hours_table caption {
+        font-size: 1.5em;
+    }
+    .big { /* Adjust .big text */
+        font-size: 1.2em;
+    }
+    #bulletPoints {
+        font-size: medium; /* Adjust bullet point font size */
+    }
+    .blrb { /* Blurb text */
+        font-size: medium;
+    }
+    .awardText {
+        font-size: 18px;
+    }
+ }
+
+ /* Phones Portrait (max-width: 480px) */
+ @media (max-width: 480px) {
+    body {
+        font-size: 13px; /* Reduce base font for very small screens */
+    }
+    #welcome {
+        font-size: 25px; /* Smallest welcome text */
+    }
+    #msite {
+        font-size: 10px;
+    }
+    #header {
+        padding: 5px;
+    }
+    #main, #sidebar_l, #footer {
+        padding: 5px;
+    }
+    #hours_table caption {
+        font-size: 1.3em;
+    }
+    .current { /* Current hour data */
+        font-size: medium; /* Make it less overpowering */
+    }
+    .dark { /* .dark class text */
+        font-size: 1.5em;
+    }
+    #flexhourshdr {
+        font-size: 1.5em;
+    }
+ }
+
  /*
  +--------------------------------------+
  |  __,  __   __        (c) 2025        |
  | /  ` /__` /__`       by: Thomas Beek |
  | \__, .__/ .__/                       |
  +--------------------------------------+
- */ 
+ */
